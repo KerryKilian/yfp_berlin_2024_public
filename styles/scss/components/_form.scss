@@ -1,0 +1,30 @@
+.group__form {
+    // width: 100%;
+    @include flex(row, wrap, stretch, flex-end);
+    // @include grid-repeat-columns($repeat: auto-fit, $min: 10em, $max: 1fr);
+    // gap: 1%;
+    gap: $margin;
+
+}
+
+.group__formbuttons {
+    @include flex(row, nowrap, space-between, center);
+}
+
+.group__forminput {
+    // @include flex(row, wrap, left, center);
+    @include grid-repeat-columns($repeat: auto-fit, $min: 7em, $max: 1fr);
+    gap: 0;
+    // margin: $margin;
+}
+
+.group__forminput > input {
+    border-radius: $border-radius;
+    border: 0;
+    padding: $padding;
+    color: $black-color;
+}
+
+.group__forminput > label {
+    margin-bottom: $margin;
+}

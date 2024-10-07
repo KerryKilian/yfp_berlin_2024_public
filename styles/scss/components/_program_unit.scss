@@ -1,0 +1,75 @@
+.programday {
+    background-color: $background-color2;
+    border-radius: $border-radius;
+    padding: $padding;
+    margin: $margin;
+    margin-left: 0;
+    // width: 50%;
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
+    z-index: 1;
+}
+
+.programday--title {
+    margin: $margin;
+    margin-left: 0;
+}
+
+.programday--titlecontainer {
+    @include flex(row, wrap, left, center);
+}
+
+.programday--timeslot {
+    @include flex(row, wrap, left, center);
+}
+
+.programday--table {
+  border-collapse: collapse;
+}
+
+.programday--table-container {
+    border-top: 1px solid $secondary-color;
+}
+
+.programday--table th,
+.programday--table td {
+  border: none;
+  padding: $padding;
+}
+
+td:nth-child(1), th:nth-child(1) {
+    border-right: 1px solid $secondary-color; // Farbe der vertikalen Linie
+  }
+  
+
+.programmday--tabletopic {
+    text-align: left;
+}
+
+.programmday--tabletime {
+    text-align: right;
+}
+
+.programmday--tablelocation {
+    color: $tertiary-color;
+}
+
+
+.programs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; // Abstand zwischen den Programmen
+    z-index: 1;
+  }
+  
+  .programday {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .programday.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }

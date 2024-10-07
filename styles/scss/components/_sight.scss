@@ -1,0 +1,61 @@
+.sight {
+    margin-bottom: $margin;
+    padding: calc(4*$padding);
+    flex: 1 1 100%;
+    @media (max-width: 1000px)  {
+        padding: $padding;
+      }
+    border-radius: $border-radius;
+}
+
+.sight__description {
+  margin: $margin;
+}
+
+.sight__container {
+    display: flex;
+  flex-wrap: wrap; /* Elemente umbrechen, wenn nicht genug Platz ist */
+  align-items: center; /* Zentriert die Elemente vertikal */
+  justify-content: center;
+
+}   
+
+// animation
+.sight__container {
+  opacity: 0;
+  transform: translateX(-30%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.sight__container.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sight__title {
+    margin-bottom: $margin;
+}
+
+.sight__text {
+    // text-align: center;
+    text-align: left;
+    flex: 30% 1 1;
+    padding: $padding;
+}
+
+.sight__img {
+    // width: 30%;
+//   height: 500px;
+  border-radius: $border-radius;
+    flex: 20% 0.8 1;
+  object-fit: cover;
+  display: block;
+  margin: $margin;
+  @media (max-width: 1000px)  {
+    padding: 0;
+  }
+}
+
+.sights > *:nth-child(odd) {
+    background-color: $background-color3;
+  }

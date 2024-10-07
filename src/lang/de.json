@@ -1,0 +1,63 @@
+{
+  "header.program": "Programm",
+  "header.subscribe": "Anmelden",
+  "header.unsubscribe": "Suche",
+  "header.berlin": "Berliner Sehenswürdigkeiten",
+  "header.files": "Dateien",
+  "footer.creator": "Erstellt von Kilian Aaron Brinkner für das Global Friendship 2024 in Berlin",
+  "files.title": "Dateien",
+  
+  "files.incompatibilities_en": "Unverträglichkeiten Englisch",
+  "files.incompatibilities_de": "Unverträglichkeiten Deutsch",
+  "files.breakfast_times": "Frühstückszeiten",
+  "files.lunch_groups_tuesday": "Essensgruppen Dienstag",
+  "berlin.title": "Berliner Sehenswürdigkeiten",
+  "berlin.description": "Willkommen in Berlin! Bitte beginnen Sie Ihren Rundgang am Fernsehturm, der sich an der Station „Alexanderplatz“ befindet, und gehen Sie bis zum Brandenburger Tor. Genießen Sie unseren kleinen Selbstführer, der Ihnen hilft, die Stadt kennenzulernen. Die Tour umfasst Teile des 'Historischen Berlins', ein Begriff, der mit dem Gebiet älterer Teile der Stadt bis zum Jahr 1750 verbunden ist. Dort werden Sie jedoch Gebäude und Architektur aus verschiedenen Zeiten und Jahrhunderten begegnen. Berlin hat sich über die Jahrhunderte stark verändert und wurde insbesondere während des Zweiten Weltkriegs von 1939-1945 stark zerstört, sodass viele der heutigen Gebäude nach dem Krieg entweder renoviert oder neu aufgebaut wurden. Das 'Historische Berlin' liegt vollständig in dem Gebiet, das nach dem Zweiten Weltkrieg von der Sowjetunion kontrolliert wurde, dem sowjetischen Sektor (1945-1990).",
+  "subscribe.title": "Tour buchen",
+  "subscribe.description": "Bitte melden Sie sich für eine Tour an. Jede Tour hat ein anderes Thema. Sie werden einige Sehenswürdigkeiten sehen und wichtige Informationen über die Tour erhalten, für die Sie sich anmelden. Bitte beachten Sie: Jede Tour hat eine Kapazität von 70 Personen.",
+  "subscribe.members": "Mitglieder",
+  "subscribe.start": "Start",
+  "subscribe.form.name": "Name",
+  "subscribe.form.telephone": "Telefon",
+  "subscribe.form.city": "Stadt",
+  "subscribe.form.joinTour": "Tour beitreten",
+  "subscribe.form.cancel": "Abbrechen",
+  "unsubscribe.title": "Suchen und Abmelden",
+  "unsubscribe.description": "Schaue hier nach, für welche Gruppe du dich angemeldet hast. Gib dafür dieselben Daten ein, die du auch bei der Anmeldung eingegeben hast. Du hast anschließend auch die Möglichkeit, dich aus einer Gruppe entfernen zu lassen.",
+  "unsubscribe.form.name": "Name",
+  "unsubscribe.form.telephone": "Telefon",
+  "unsubscribe.form.city": "Stadt",
+  "unsubscribe.form.search": "Suchen",
+  "unsubscribe.results.title": "Die folgenden Mitglieder wurden gefunden",
+  "unsubscribe.results.delete": "Löschen",
+  "tour.historic_berlin.title": "Historisches Berlin",
+  "tour.historic_berlin.description": "Diese Stadttour zeigt wichtige historische Orte und die Entwicklung der Stadt und behandelt prägende Ereignisse von der Gründung bis zur modernen Metropole.",
+
+  "tour.special_architectural_features.title": "Besondere architektonische Merkmale in Berlin",
+  "tour.special_architectural_features.description": "Diese geführte Stadttour führt Sie auf eine Reise durch die reiche und vielfältige Architekturgeschichte Berlins. Während sich die Stadt im Laufe der Jahrhunderte entwickelte, hinterließ jede Epoche ihre einzigartige Handschrift auf den Gebäuden, die Sie heute sehen. Sie erkunden viele architektonische Stile, von gotischem Design über die mutigen Linien des Modernismus bis hin zur Pracht des Neoklassizismus.",
+
+  "tour.personalities_resistance_ns_ddr.title": "Persönlichkeiten im Widerstand (Nationalsozialismus & DDR)",
+  "tour.personalities_resistance_ns_ddr.description": "Der Stadtrundgang stellt verschiedene Persönlichkeiten vor, die sich – aus unterschiedlichen Motiven – im Widerstand gegen den Nationalsozialismus und gegen die DDR-Regierung engagierten. So werden etwa der evangelische Pfarrer Dietrich Bonhoeffer, der sich schon früh gegen die nationalsozialistische Judenverfolgung aussprach, der katholische Dompropst Bernhard Lichtenberg, der in Yad Vashem als Gerechter unter den Völkern geehrt wird, und der Widerstand in der DDR vorgestellt, der zum Aufstand vom 17. Juni 1953 und zum Fall der Mauer 1989 führte.",
+
+  "tour.berlin_wall.title": "Die Berliner Mauer",
+  "tour.berlin_wall.description": "Diese Tour behandelt die Geschichte der Berliner Mauer, von ihrem Bau bis zu ihrem Fall, und zeigt, wie die Stadt Berlin aus den Ereignissen der Teilung und Wiedervereinigung gewachsen ist.",
+
+  "tour.command_center_nazi_germany.title": "Berlin - Das Machtzentrum des NS-Regimes",
+  "tour.command_center_nazi_germany.description": "Erkunden Sie Berlin als Epizentrum der NS-Macht während des Dritten Reiches, wo wichtige Entscheidungen getroffen wurden, die die Geschichte prägten. Diese Tour führt Sie zu bedeutenden Orten der NS-Verwaltung und enthüllt die Rolle der Stadt im Aufstieg und Fall des Nationalsozialismus.",
+
+  "tour.political_district_over_time.title": "Das politische Viertel Berlins im Laufe der Zeit",
+  "tour.political_district_over_time.description": "Diese Stadttour zeigt Ihnen nicht nur die bedeutendsten Gebäude des deutschen Regierungsviertels, sondern führt Sie auch durch die historische Entwicklung Berlins, indem sie Sie mit politischen Debatten aus Vergangenheit und Gegenwart vertraut macht. Ihre Reise beginnt im 18. Jahrhundert, mit einem schnellen Übergang in die Ära des Zweiten Deutschen Reiches, gefolgt von NS-Deutschland, der Teilung Deutschlands und der Wiedervereinigung.",
+
+  "tour.hidden_backyards_city_centre.title": "Verborgene Hinterhöfe im Zentrum Berlins",
+  "tour.hidden_backyards_city_centre.description": "Bei dem geführten Spaziergang im Zentrum Berlins entdecken Sie nicht nur versteckte Hinterhöfe mit ihren spannenden Geschichten, sondern folgen auch den Spuren des jüdischen Lebens in Berlin.",
+
+  "tour.jewish_life_berlin.title": "Jüdisches Leben in Berlin - Eine Reise durch Geschichte und Erinnerung",
+  "tour.jewish_life_berlin.description": "Entdecken Sie die reiche und komplexe Geschichte des jüdischen Lebens in Berlin, von der lebendigen Vorkriegsgemeinschaft bis zu den schrecklichen Ereignissen des Holocaust. Diese Tour taucht in die Denkmäler, Geschichten und Gedenkstätten ein, die die jüdische Widerstandsfähigkeit und Erinnerung in der Stadt ehren.",
+
+  "tour.refugees_welcome.title": "Flüchtlinge willkommen?! Flucht und Migration in der Geschichte Berlins.",
+  "tour.refugees_welcome.description": "Berlin wurde zur Heimat vieler Menschen, die im Laufe der Jahrhunderte nach Deutschland eingewandert sind. Die Einwanderer waren vielfältig: Hugenotten, russische Juden, die vor Pogromen flüchteten, Gastarbeiter im 20. Jahrhundert und viele Flüchtlinge seit dem starken Anstieg der Flüchtlingsbewegungen ab 2015.",
+
+  "tour.living_in_grd.title": "Leben in der DDR",
+  "tour.living_in_grd.description": "Wie viele wissen, wurde Deutschland nach dem Zweiten Weltkrieg in Ost und West geteilt. Es entstanden zwei völlig unterschiedliche Staaten, die die Lebensbedingungen der Menschen, die dort lebten, prägten. Um das Leben in Ostdeutschland zu erkunden, laden wir Sie ein, ein Museum zu besuchen und einen kurzen Spaziergang entlang der Karl-Marx-Allee zu machen."
+
+}

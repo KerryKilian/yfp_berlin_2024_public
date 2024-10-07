@@ -1,0 +1,14 @@
+.message {
+    padding: $padding;
+    border-radius: $border-radius;
+    margin: $margin;
+    display: inline-block;
+}
+
+.error {
+    background-color: $decline-color;
+}
+
+.success {
+    background-color: $accept-color;
+}

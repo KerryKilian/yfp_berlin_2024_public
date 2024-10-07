@@ -1,0 +1,45 @@
+.iconbutton {
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconbutton:hover {
+    transform: scale(1.2);
+}
+
+.button {
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $padding;
+    border-radius: $border-radius;
+    border: 0;
+    margin: $margin;
+    margin-left: 0;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.submit {
+    background-color: $secondary-color;
+    color: $black-color;
+    font-weight: bold;
+}
+
+.cancel {
+    background-color: $decline-color;
+    font-weight: bold;
+}

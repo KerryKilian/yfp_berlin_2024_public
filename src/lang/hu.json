@@ -1,0 +1,64 @@
+{
+  "header.program": "Program",
+  "header.subscribe": "Feliratkozás",
+"header.unsubscribe": "Keresés",
+  "header.berlin": "Berlin Látnivalói",
+  "header.files": "Fájlok",
+  "footer.creator": "Készítette: Kilian Aaron Brinkner a Global Friendship 2024-hez Berlinben",
+"files.title": "Fájlok",
+"files.incompatibilities_en": "Élelmiszer-összetevők angol",
+"files.incompatibilities_de": "Élelmiszer-összetevők német",
+"files.breakfast_times": "Reggeli időpontok",
+"files.lunch_groups_tuesday": "Ebédcsoportok kedd",
+
+
+  "berlin.title": "Berlin Látnivalói",
+  "berlin.description": "Üdvözöljük Berlinben! Kérjük, kezdje el sétáját a TV-toronynál, amely az „Alexanderplatz” állomáson található, és menjen végig egészen a Brandenburgi kapuig. Élvezze kis önálló útmutatónkat, amely segít megismerni a várost. A túra a 'Történelmi Berlin' egyes részeit tartalmazza, amely a város régebbi részeire vonatkozik az 1750-es évekig. Itt találkozik különböző időszakokból és évszázadokból származó épületekkel és építészettel. Berlin sokat változott az évszázadok során, és a második világháború alatt (1939-1945) jelentősen megsemmisült, így a mai épületek sokat vagy felújítva, vagy újjáépítve lettek a háború után, vagy teljesen újként épültek. A 'Történelmi Berlin' teljes mértékben a Szovjetunió által irányított területen helyezkedett el a második világháború után, a Szovjet szektorban (1945-1990).",
+  "subscribe.title": "Feliratkozás túrára",
+  "subscribe.description": "Kérjük, jelentkezzen be egy túrára. Minden túrának más témája van. Láthat néhány látnivalót és fontos információkat kap a túrával kapcsolatban, amelyre jelentkezik. Kérjük, vegye figyelembe: Minden túra kapacitása 70 fő.",
+  "subscribe.members": "tagok",
+  "subscribe.start": "Kezdés",
+  "subscribe.form.name": "Név",
+  "subscribe.form.telephone": "Telefon",
+  "subscribe.form.city": "Város",
+  "subscribe.form.joinTour": "Csatlakozás a túrához",
+  "subscribe.form.cancel": "Mégse",
+  "unsubscribe.title": "Keresés és leiratkozás",
+  "unsubscribe.description": "Nézd meg itt, hogy melyik csoportba regisztráltál. Add meg ugyanazokat az adatokat, amelyeket a regisztráció során használtál. Ezt követően lehetőséged lesz törölni magad egy csoportból.",
+  "unsubscribe.form.name": "Név",
+  "unsubscribe.form.telephone": "Telefon",
+  "unsubscribe.form.city": "Város",
+  "unsubscribe.form.search": "Keresés",
+  "unsubscribe.results.title": "A következő tagok találhatók",
+  "unsubscribe.results.delete": "Törlés",
+  "tour.historic_berlin.title": "Történelmi Berlin",
+  "tour.historic_berlin.description": "Ez a városnézés fontos történelmi helyszíneket és a város fejlődését mutatja be, és a város alapításától kezdve a modern nagyvárosig terjedő fontos eseményeket tárgyalja.",
+
+  "tour.special_architectural_features.title": "Berlin különleges építészeti jellegzetességei",
+  "tour.special_architectural_features.description": "Ez a vezetett városnézés Berlin gazdag és változatos építészettörténetén vezet végig. Az évszázadok során a város minden egyes korszaka egyedi nyomot hagyott azokon az épületeken, amelyeket ma lát. Számos építészeti stílust fedezhet fel, a gótikus dizájntól a modernizmus merész vonalain át a neoklasszicizmus nagyságáig.",
+
+  "tour.personalities_resistance_ns_ddr.title": "Személyiségek az ellenállásban (nemzetiszocializmus & NDK)",
+  "tour.personalities_resistance_ns_ddr.description": "A városnézés olyan személyiségeket mutat be, akik - különböző okokból - részt vettek a nemzetiszocializmus és az NDK-kormány elleni ellenállásban. Bemutatja Dietrich Bonhoeffer protestáns lelkészt, aki a nemzetiszocialista zsidóüldözések korai szakaszában felszólalt, Bernhard Lichtenberg katolikus székesegyházi prépostot, akit Yad Vashemben a Nemzetek Igazaként tisztelnek, valamint az NDK-beli ellenállást. amely az 1953. június 17-i felkeléshez és 1989-ben a berlini fal leomlásához vezetett.",
+
+  "tour.berlin_wall.title": "A berlini fal",
+  "tour.berlin_wall.description": "Ez a városnézés bemutatja a berlini fal történetét, annak építésétől a leomlásáig, és azt is, hogy Berlin városa hogyan fejlődött a megosztottság és az újraegyesítés eseményeiből.",
+
+  "tour.command_center_nazi_germany.title": "Berlin - A náci Németország parancsnoki központja",
+  "tour.command_center_nazi_germany.description": "Fedezze fel Berlint mint a náci hatalom epicentrumát a Harmadik Birodalom idején, ahol a történelem alakulását meghatározó döntések születtek. Ez a városnézés jelentős náci kormányzati helyszínekre kalauzolja el, feltárva a város szerepét a nemzetiszocializmus felemelkedésében és bukásában.",
+
+  "tour.political_district_over_time.title": "Berlin politikai negyede az idő múlásával",
+  "tour.political_district_over_time.description": "Ez a városnézés nemcsak a német kormányzati negyed legjelentősebb épületeit mutatja be, hanem Berlin politikai fejlődésének történetén is végigvezeti Önt, megismertetve a múlt és jelen politikai diskurzusaival. Utazása az 1700-as években kezdődik, gyorsan áttérve a Második Német Birodalom korszakára, majd a náci Németországra, Németország megosztottságára és újraegyesítésére.",
+
+  "tour.hidden_backyards_city_centre.title": "Rejtett udvarok Berlin belvárosában",
+  "tour.hidden_backyards_city_centre.description": "Ez a vezetett séta Berlin belvárosában nemcsak rejtett udvarokat tár fel lenyűgöző történeteikkel, hanem a zsidó élet nyomába is ered Berlinben.",
+
+  "tour.jewish_life_berlin.title": "Zsidó élet Berlinben - Utazás a történelemben és emlékezetben",
+  "tour.jewish_life_berlin.description": "Fedezze fel a berlini zsidó élet gazdag és összetett történetét, a háború előtti virágzó közösségtől kezdve a holokauszt borzalmas eseményeiig. Ez a városnézés emlékműveket, történeteket és emlékhelyeket mutat be, amelyek tiszteletben tartják a zsidó ellenállást és emlékezetet a városban.",
+
+  "tour.refugees_welcome.title": "Üdvözöljük a menekülteket?! Menekülés és migráció Berlin történetében.",
+  "tour.refugees_welcome.description": "Berlin számos ember otthonává vált, akik az évszázadok során Németországba vándoroltak. Az emigránsok sokfélék voltak: hugenották, pogromok elől menekülő orosz zsidók, 20. századi vendégmunkások és számos menekült, 2015-től kezdődően a menekültáradat drasztikus növekedésével.",
+
+  "tour.living_in_grd.title": "Élet az NDK-ban",
+  "tour.living_in_grd.description": "Mint sokan tudják, Németországot a második világháború után Keletre és Nyugatra osztották. Két teljesen eltérő állam jött létre, amelyek meghatározták az ott élők életkörülményeit. Kelet-Németország életének felfedezéséhez meghívjuk Önt, hogy látogasson el egy múzeumba, és tegyen egy rövid sétát a Karl-Marx-Allee mentén."
+
+}

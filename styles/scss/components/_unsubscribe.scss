@@ -1,0 +1,22 @@
+.member {
+    @include flex(row, wrap, left, center);
+    gap: $padding;
+    margin-bottom: $margin;
+    background-color: $background-color2;
+    border-radius: $border-radius;
+    padding: $padding;
+
+}
+
+.member__info {
+    @include flex(row, wrap, left, center);
+}
+
+.member > button {
+    margin: 0;
+}
+
+.member__resultstour {
+    @include flex(row, nowrap, left, center);
+    gap: $padding;
+}

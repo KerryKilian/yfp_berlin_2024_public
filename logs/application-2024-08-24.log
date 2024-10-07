@@ -1,0 +1,57 @@
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:37:40.628Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:37:40.662Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:37:42.121Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member POST    |    value: [object Object]    |    error: \"tourName\" with value \"special_architectural_features.title\" fails to match the required pattern: /^[a-zA-Z0-9\\s]*$/","timestamp":"2024-08-24T18:37:45.529Z"}
+{"level":"error","message":"ip: ::1    |    cancelled api/member POST    |    value: [object Object]    |    error: \"tourName\" with value \"special_architectural_features.title\" fails to match the required pattern: /^[a-zA-Z0-9\\s]*$/","timestamp":"2024-08-24T18:37:45.530Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:39:22.418Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:39:22.445Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:39:24.011Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member POST    |    value: [object Object]    |    error: \"tourName\" with value \"special_architectural_features.title\" fails to match the required pattern: /^[a-zA-Z0-9\\s.]*$/","timestamp":"2024-08-24T18:39:27.092Z"}
+{"level":"error","message":"ip: ::1    |    cancelled api/member POST    |    value: [object Object]    |    error: \"tourName\" with value \"special_architectural_features.title\" fails to match the required pattern: /^[a-zA-Z0-9\\s.]*$/","timestamp":"2024-08-24T18:39:27.093Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:40:16.491Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:40:16.524Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:40:17.743Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member POST    |    value: [object Object]    |    error: undefined","timestamp":"2024-08-24T18:40:19.961Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/member POST    |    created: [object Object]","timestamp":"2024-08-24T18:40:20.082Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:41:42.822Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:41:44.086Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member POST    |    value: [object Object]    |    error: undefined","timestamp":"2024-08-24T18:41:46.568Z"}
+{"level":"error","message":"ip: ::1    |    cancelled api/member POST    |    error: Member already in group: [object Object]","timestamp":"2024-08-24T18:41:46.598Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:41:49.131Z"}
+{"level":"info","message":"ip: ::1    |    Called api/get_member POST    |    value: [object Object]    |    error: undefined","timestamp":"2024-08-24T18:41:59.821Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/get_member POST    |    found: [object Object]","timestamp":"2024-08-24T18:41:59.844Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member DELETE    |    value: [object Object]    |    error: undefined","timestamp":"2024-08-24T18:42:04.019Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/member DELETE    |    success: Member deleted and tour updated: [object Object]","timestamp":"2024-08-24T18:42:04.125Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:42:40.772Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:42:40.808Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:42:41.870Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member POST    |    value: [object Object]    |    error: undefined","timestamp":"2024-08-24T18:42:44.227Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/member POST    |    created: [object Object]","timestamp":"2024-08-24T18:42:44.337Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:46:37.219Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:46:37.254Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:46:38.590Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member POST    |    value: Kilian Aaron Brinkner 015784678005 Berlin    |    error: undefined","timestamp":"2024-08-24T18:46:41.049Z"}
+{"level":"error","message":"ip: ::1    |    cancelled api/member POST    |    error: Member already in group: Kilian Aaron Brinkner 015784678005 Berlins","timestamp":"2024-08-24T18:46:41.071Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:46:47.653Z"}
+{"level":"info","message":"ip: ::1    |    Called api/get_member POST    |    value: [object Object]    |    error: undefined","timestamp":"2024-08-24T18:46:53.700Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/get_member POST    |    found: [object Object]","timestamp":"2024-08-24T18:46:53.725Z"}
+{"level":"info","message":"ip: ::1    |    Called api/get_member POST    |    value: Kilian Aaron Brinkner 015784678005 Berlin    |    error: undefined","timestamp":"2024-08-24T18:47:31.778Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/get_member POST    |    found: undefined undefined undefined","timestamp":"2024-08-24T18:47:31.811Z"}
+{"level":"info","message":"ip: ::1    |    Called api/get_member POST    |    value: Kilian Aaron Brinkner 015784678005 Berlin    |    error: undefined","timestamp":"2024-08-24T18:48:06.572Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/get_member POST    |    found result array","timestamp":"2024-08-24T18:48:06.595Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member DELETE    |    value: Kilian Aaron Brinkner 015784678005 Berlin    |    error: undefined","timestamp":"2024-08-24T18:48:11.170Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/member DELETE    |    success: Member deleted and tour updated: undefined undefined undefined undefined undefined","timestamp":"2024-08-24T18:48:11.303Z"}
+{"level":"info","message":"ip: ::1    |    Called api/get_member POST    |    value: Kilian Aaron Brinkner 015784678005 Berlin    |    error: undefined","timestamp":"2024-08-24T18:49:05.976Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/get_member POST    |    found result array","timestamp":"2024-08-24T18:49:05.999Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:49:07.108Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:49:07.138Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:49:07.974Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member POST    |    value: Kilian Aaron Brinkner 015784678005 Berlin    |    error: undefined","timestamp":"2024-08-24T18:49:09.926Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/member POST    |    created: undefined undefined undefined","timestamp":"2024-08-24T18:49:10.031Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T18:49:10.958Z"}
+{"level":"info","message":"ip: ::1    |    Called api/get_member POST    |    value: Kilian Aaron Brinkner 015784678005 Berlin    |    error: undefined","timestamp":"2024-08-24T18:49:14.274Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/get_member POST    |    found result array","timestamp":"2024-08-24T18:49:14.297Z"}
+{"level":"info","message":"ip: ::1    |    Called api/member DELETE    |    value: Kilian Aaron Brinkner 015784678005 Berlin    |    error: undefined","timestamp":"2024-08-24T18:49:20.150Z"}
+{"level":"info","message":"ip: ::1    |    accepted api/member DELETE    |    success: Member deleted and tour updated: 66af7aac7e993ab511613cb0 historic_berlin.title historic_berlin.description https://maps.app.goo.gl/92A9frA5vsoGUa3cA","timestamp":"2024-08-24T18:49:20.247Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T20:06:50.541Z"}
+{"level":"info","message":"ip: ::1    |    Called api/tour GET    |    returned tours","timestamp":"2024-08-24T20:06:50.574Z"}

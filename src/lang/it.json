@@ -1,0 +1,64 @@
+{
+  "header.program": "Programma",
+  "header.subscribe": "Iscriviti",
+"header.unsubscribe": "Cerca",
+  "header.berlin": "Attrazioni di Berlino",
+  "header.files": "File",
+  "footer.creator": "Creato da Kilian Aaron Brinkner per Global Friendship 2024 a Berlino",
+"files.title": "File",
+"files.incompatibilities_en": "Ingredienti alimentari inglese",
+"files.incompatibilities_de": "Ingredienti alimentari tedesco",
+"files.breakfast_times": "Orari della colazione",
+"files.lunch_groups_tuesday": "Gruppi di pranzo martedì",
+
+
+  "berlin.title": "Attrazioni di Berlino",
+  "berlin.description": "Benvenuti a Berlino! Per favore, inizia la tua passeggiata dalla Torre della Televisione, situata alla stazione „Alexanderplatz“ e prosegui fino al Porta di Brandeburgo. Goditi la nostra piccola guida autonoma, che ti aiuterà a conoscere la città. Il tour comprende parti del 'Berlino Storica', un concetto collegato alla zona delle parti più antiche della città fino al 1750 circa. Ma qui incontrerai edifici e architetture di tempi e secoli diversi. Berlino è cambiata molto nel corso dei secoli ed è stata pesantemente distrutta, specialmente durante la Seconda Guerra Mondiale dal 1939 al 1945, tanto che molti degli edifici odierni sono stati o ristrutturati o ricostruiti dopo la guerra o costruiti ex novo. La 'Berlino Storica' si trovava completamente nella zona controllata dall'Unione Sovietica dopo la Seconda Guerra Mondiale, il settore sovietico (1945-1990).",
+  "subscribe.title": "Iscriviti al tour",
+  "subscribe.description": "Per favore, registrati per un tour. Ogni tour avrà un argomento diverso. Vedrai alcune attrazioni e riceverai informazioni importanti sul tour a cui ti stai iscrivendo. Si prega di notare: ogni tour ha una capacità di 70 persone.",
+  "subscribe.members": "membri",
+  "subscribe.start": "Inizio",
+  "subscribe.form.name": "Nome",
+  "subscribe.form.telephone": "Telefono",
+  "subscribe.form.city": "Città",
+  "subscribe.form.joinTour": "Partecipa al Tour",
+  "subscribe.form.cancel": "Annulla",
+  "unsubscribe.title": "Cerca e disiscriviti",
+  "unsubscribe.description": "Verifica qui per vedere a quale gruppo ti sei iscritto. Inserisci gli stessi dati che hai utilizzato durante la registrazione. Avrai anche la possibilità di rimuovere te stesso da un gruppo successivamente.",
+  "unsubscribe.form.name": "Nome",
+  "unsubscribe.form.telephone": "Telefono",
+  "unsubscribe.form.city": "Città",
+  "unsubscribe.form.search": "Cerca",
+  "unsubscribe.results.title": "Sono stati trovati i seguenti membri",
+  "unsubscribe.results.delete": "Elimina",
+  "tour.historic_berlin.title": "Berlino Storico",
+  "tour.historic_berlin.description": "Questo tour della città mostra luoghi storici importanti e lo sviluppo della città, coprendo eventi significativi dalla sua fondazione fino alla moderna metropoli.",
+
+  "tour.special_architectural_features.title": "Caratteristiche architettoniche speciali di Berlino",
+  "tour.special_architectural_features.description": "Questo tour guidato ti porterà in un viaggio attraverso la ricca e diversificata storia architettonica di Berlino. Man mano che la città si è evoluta nei secoli, ogni epoca ha lasciato la propria impronta unica sugli edifici che vedi oggi. Esplorerai molti stili architettonici, dal design gotico, alle linee audaci del modernismo, e infine alla grandiosità del neoclassicismo.",
+
+  "tour.personalities_resistance_ns_ddr.title": "Personalità nella Resistenza (Nazionalsocialismo & DDR)",
+  "tour.personalities_resistance_ns_ddr.description": "Il tour della città presenta varie personalità che, per diverse ragioni, furono coinvolte nella resistenza contro il nazionalsocialismo e contro il governo della DDR. Presenta il pastore protestante Dietrich Bonhoeffer, che si espresse contro la persecuzione nazionalsocialista degli ebrei in una fase iniziale, il prevosto della cattedrale cattolica Bernhard Lichtenberg, che è onorato a Yad Vashem come Giusto tra le nazioni, e la resistenza nella DDR, che portò alla rivolta del 17 giugno 1953 e alla caduta del Muro di Berlino nel 1989.",
+
+  "tour.berlin_wall.title": "Il Muro di Berlino",
+  "tour.berlin_wall.description": "Questo tour copre la storia del Muro di Berlino, dalla sua costruzione alla sua caduta, e mostra come la città di Berlino è cresciuta a partire dagli eventi della divisione e della riunificazione.",
+
+  "tour.command_center_nazi_germany.title": "Berlino - Il Centro di Comando della Germania Nazista",
+  "tour.command_center_nazi_germany.description": "Esplora Berlino come epicentro del potere nazista durante il Terzo Reich, dove furono prese decisioni chiave che hanno plasmato la storia. Questo tour ti porta a visitare i luoghi significativi del governo nazista, rivelando il ruolo della città nell'ascesa e nella caduta del nazionalsocialismo.",
+
+  "tour.political_district_over_time.title": "Il distretto politico di Berlino nel tempo",
+  "tour.political_district_over_time.description": "Questo tour della città non solo ti mostrerà gli edifici più significativi del distretto governativo tedesco, ma ti guiderà anche attraverso l'evoluzione storica di Berlino, presentandoti i discorsi politici passati e attuali. Inizierai il tuo viaggio negli anni 1700, passando rapidamente all'era del Secondo Reich tedesco, seguita dalla Germania nazista, dalla divisione della Germania e dalla sua riunificazione.",
+
+  "tour.hidden_backyards_city_centre.title": "Cortili nascosti del centro città di Berlino",
+  "tour.hidden_backyards_city_centre.description": "Durante questa passeggiata guidata nel centro di Berlino, non solo scoprirai cortili nascosti con le loro storie affascinanti, ma seguirai anche le tracce della vita ebraica a Berlino.",
+
+  "tour.jewish_life_berlin.title": "Vita ebraica a Berlino - Un viaggio nella storia e nella memoria",
+  "tour.jewish_life_berlin.description": "Scopri la ricca e complessa storia della vita ebraica a Berlino, dalla sua vibrante comunità pre-bellica agli eventi devastanti dell'Olocausto. Questo tour esplora i monumenti, le storie e i memoriali che onorano la resilienza e il ricordo ebraico nella città.",
+
+  "tour.refugees_welcome.title": "Benvenuti i rifugiati?! Fuga e migrazione nella storia di Berlino.",
+  "tour.refugees_welcome.description": "Berlino è diventata la casa di molte persone che sono emigrate in Germania nei secoli. Gli immigrati erano diversi: ugonotti, ebrei russi in fuga dai pogrom, lavoratori ospiti nel XX secolo e molti rifugiati dall'aumento significativo dei movimenti di rifugiati nel 2015.",
+
+  "tour.living_in_grd.title": "Vivere nella DDR",
+  "tour.living_in_grd.description": "Come molti sanno, la Germania è stata divisa in Est e Ovest dopo la Seconda Guerra Mondiale. Sono emersi due stati completamente diversi, che hanno plasmato le condizioni di vita delle persone che ci vivevano. Per esplorare la vita nella Germania dell'Est, ti invitiamo a visitare un museo e a fare una breve passeggiata lungo la Karl-Marx-Allee."
+
+}

@@ -1,0 +1,63 @@
+{
+  "header.program": "Programa",
+  "header.subscribe": "Inscrever-se",
+"header.unsubscribe": "Procurar",
+  "header.berlin": "Atrações de Berlim",
+  "footer.creator": "Criado por Kilian Aaron Brinkner para Global Friendship 2024 em Berlim",
+  "berlin.title": "Atrações de Berlim",
+  "header.files": "Arquivos",
+  "files.title": "Arquivos",
+"files.incompatibilities_en": "Ingredientes alimentares inglês",
+"files.incompatibilities_de": "Ingredientes alimentares alemão",
+"files.breakfast_times": "Horários do café da manhã",
+"files.lunch_groups_tuesday": "Grupos de almoço terça-feira",
+
+  "berlin.description": "Bem-vindo a Berlim! Por favor, comece sua caminhada a partir da Torre de TV, que está localizada na estação 'Alexanderplatz', e vá até o Portão de Brandemburgo. Aproveite nosso pequeno guia autônomo, que ajudará você a conhecer a cidade. O tour inclui partes do 'Berlim Histórico', um conceito associado à área dos bairros antigos da cidade até o ano de 1750. No entanto, você encontrará edifícios e arquitetura de diferentes épocas e séculos. Berlim mudou muito ao longo dos séculos e foi fortemente destruída, especialmente durante a Segunda Guerra Mundial de 1939-1945, de modo que muitos dos edifícios atuais foram renovados ou reconstruídos após a guerra ou construídos do zero. O 'Berlim Histórico' está completamente na área controlada pela União Soviética após a Segunda Guerra Mundial, o setor soviético (1945-1990).",
+  "subscribe.title": "Inscrever-se na tour",
+  "subscribe.description": "Por favor, registre-se para uma tour. Cada tour terá um tema diferente. Você verá algumas atrações e obterá informações importantes sobre a tour para a qual está se inscrevendo. Observe: cada tour tem uma capacidade de 70 pessoas.",
+  "subscribe.members": "membros",
+  "subscribe.start": "Início",
+  "subscribe.form.name": "Nome",
+  "subscribe.form.telephone": "Telefone",
+  "subscribe.form.city": "Cidade",
+  "subscribe.form.joinTour": "Participar da tour",
+  "subscribe.form.cancel": "Cancelar",
+  "unsubscribe.title": "Pesquisar e Desinscrever-se",
+  "unsubscribe.description": "Verifique aqui para ver em qual grupo você se inscreveu. Insira os mesmos dados que você usou durante o registro. Você também terá a opção de se remover de um grupo posteriormente.",
+  "unsubscribe.form.name": "Nome",
+  "unsubscribe.form.telephone": "Telefone",
+  "unsubscribe.form.city": "Cidade",
+  "unsubscribe.form.search": "Buscar",
+  "unsubscribe.results.title": "Os seguintes membros foram encontrados",
+  "unsubscribe.results.delete": "Excluir",
+  "tour.historic_berlin.title": "Berlim Histórico",
+  "tour.historic_berlin.description": "Este passeio pela cidade mostra locais históricos importantes e o desenvolvimento da cidade, cobrindo eventos que definiram sua evolução, desde sua fundação até a metrópole moderna.",
+
+  "tour.special_architectural_features.title": "Características Arquitetônicas Especiais em Berlim",
+  "tour.special_architectural_features.description": "Este passeio guiado pela cidade levará você a uma jornada pela rica e diversificada história arquitetônica de Berlim. À medida que a cidade evoluiu ao longo dos séculos, cada época deixou sua marca única nos edifícios que você vê hoje. Você explorará muitos estilos arquitetônicos, desde o design gótico, passando pelas linhas ousadas do modernismo, até a grandiosidade do neoclassicismo.",
+
+  "tour.personalities_resistance_ns_ddr.title": "Personalidades na Resistência (Nacional-Socialismo & RDA)",
+  "tour.personalities_resistance_ns_ddr.description": "O passeio pela cidade apresenta várias personalidades que - por diferentes razões - estiveram envolvidas na resistência contra o nacional-socialismo e contra o governo da RDA. Apresenta o pastor protestante Dietrich Bonhoeffer, que se manifestou contra a perseguição nacional-socialista aos judeus numa fase inicial, o reitor da catedral católica Bernhard Lichtenberg, que é homenageado no Yad Vashem como Justo entre as Nações, e a resistência na RDA, que levou à revolta de 17 de junho de 1953 e à queda do Muro de Berlim em 1989.",
+
+  "tour.berlin_wall.title": "O Muro de Berlim",
+  "tour.berlin_wall.description": "Este passeio cobre a história do Muro de Berlim, desde sua construção até sua queda, e mostra como a cidade de Berlim cresceu a partir dos eventos de divisão e reunificação.",
+
+  "tour.command_center_nazi_germany.title": "Berlim - O Centro de Comando da Alemanha Nazista",
+  "tour.command_center_nazi_germany.description": "Explore Berlim como o epicentro do poder nazista durante o Terceiro Reich, onde decisões chave que moldaram a história foram tomadas. Este passeio leva você a locais significativos da governança nazista, revelando o papel da cidade na ascensão e queda do Nacional-Socialismo.",
+
+  "tour.political_district_over_time.title": "O Distrito Político de Berlim ao Longo do Tempo",
+  "tour.political_district_over_time.description": "Este passeio pela cidade não só apresentará os edifícios mais significativos do distrito governamental alemão, como também guiará você pela evolução histórica de Berlim, apresentando-lhe os discursos políticos passados e atuais. Você começará sua jornada na década de 1700, passando rapidamente pela era do Segundo Império Alemão, seguido pela Alemanha nazista, a divisão da Alemanha e sua reunificação.",
+
+  "tour.hidden_backyards_city_centre.title": "Pátios escondidos no centro de Berlim",
+  "tour.hidden_backyards_city_centre.description": "No passeio guiado pelo centro de Berlim, você não só descobrirá pátios escondidos com suas histórias emocionantes, mas também seguirá os rastros da vida judaica em Berlim.",
+
+  "tour.jewish_life_berlin.title": "A Vida Judaica em Berlim - Uma Jornada pela História e Memória",
+  "tour.jewish_life_berlin.description": "Descubra a rica e complexa história da Vida Judaica em Berlim, desde sua vibrante comunidade pré-guerra até os eventos devastadores do Holocausto. Este passeio explora os monumentos, histórias e memoriais que homenageiam a resiliência e a memória judaica na cidade.",
+
+  "tour.refugees_welcome.title": "Refugiados bem-vindos?! Fuga e Migração na História de Berlim.",
+  "tour.refugees_welcome.description": "Berlim se tornou o lar de muitas pessoas que imigraram para a Alemanha ao longo dos séculos. Os imigrantes eram diversos: huguenotes, judeus russos fugindo dos pogroms, trabalhadores convidados no século 20 e muitos refugiados desde o aumento acentuado dos movimentos de refugiados em 2015.",
+
+  "tour.living_in_grd.title": "Vivendo na RDA",
+  "tour.living_in_grd.description": "Como muitos sabem, a Alemanha foi dividida em Leste e Oeste após a Segunda Guerra Mundial. Surgiram dois estados completamente diferentes, moldando as condições de vida das pessoas que viviam neles. Para explorar a vida na Alemanha Oriental, convidamos você a visitar um museu e fazer uma breve caminhada ao longo da Karl-Marx-Allee."
+
+}

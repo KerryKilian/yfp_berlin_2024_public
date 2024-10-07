@@ -1,0 +1,105 @@
+// :root {    
+//     --main-color: rgb(162, 219, 251);
+//     --secondary-color: rgb(8, 58, 10);
+//     --tertiary-color: rgba(30, 228, 40);
+//     --tertiary-color-transparent: rgba(30, 228, 40, 0.7);
+//     --background-color: rgb(251, 247, 162);
+
+//     --white-color: rgb(255, 255, 255);
+//     --accept-color: rgb(30, 228, 40);
+//     --decline-color: rgb(241, 79, 79);
+
+//     --font-family: "Trebuchet MS", sans-serif;
+
+//     --basic-font-size: 18px;
+//     --fontsize-h1: 3rem;
+//     --fontsize-h2: 1.8rem;
+//     --fontsize-h3: 1.3rem;
+//     --fontsize-p: 1.1rem;
+//     --fontsize-form: 1.1rem;
+//     --fontsize-table: 1.1rem;
+//     --fontsize-button: 1.1rem;
+//     --fontsize-navigation: 1.3rem;
+
+//     --max-text-length: 60ch;
+//     --margin-viewport: 3vh;
+//     --border-radius: 0.5rem;
+//     --margin: 0.5rem;
+//     --padding: 0.5rem;
+//     --max-button-height: 3rem;
+//     --max-button-width: 10rem;
+//     --img-height: 20rem;
+//     --img-width: 40rem;
+
+//   }
+
+$primary-color: rgb(0,0,0);
+$secondary-color: rgb(241, 189, 121);
+$tertiary-color: rgb(215, 221, 135);
+$tertiary-color-transparent: rgba(19, 227, 246, 0.7);
+$background-color: rgb(219, 243, 243);
+$background-color2: rgb(128, 156, 108);
+$background-color3: rgb(128, 156, 108);
+
+$white-color: rgb(255, 255, 255);
+$black-color: rgb(0, 0, 0);
+$accept-color: rgb(30, 228, 40);
+$decline-color: rgb(241, 79, 79);
+$disabled-color: rgb(167, 167, 167);
+
+$font-family: "Trebuchet MS", sans-serif;
+
+$basic-font-size: 18px;
+$fontsize-h1: 3rem;
+$fontsize-h2: 1.8rem;
+$fontsize-h3: 1.3rem;
+$fontsize-p: 1.1rem;
+$fontsize-form: 1.1rem;
+$fontsize-table: 1.1rem;
+$fontsize-button: 1.1rem;
+$fontsize-navigation: 1.3rem;
+
+$max-text-length: 60ch;
+$margin-viewport: 3vh;
+$border-radius: 0.5rem;
+$margin: 0.8rem;
+$padding: 0.8rem;
+$max-button-height: 3rem;
+$max-button-width: 10rem;
+$img-height: 20rem;
+$img-width: 40rem;
+
+$screen-size: 768px;
+
+
+  // settings.scss
+
+// :export {
+//   mainColor: $main-color;
+//   secondaryColor: $secondary-color;
+//   tertiaryColor: $tertiary-color;
+//   tertiaryColorTransparent: $tertiary-color-transparent;
+//   backgroundColor: $background-color;
+//   whiteColor: $white-color;
+//   acceptColor: $accept-color;
+//   declineColor: $decline-color;
+//   fontFamily: $font-family;
+//   basicFontSize: $basic-font-size;
+//   fontsizeH1: $fontsize-h1;
+//   fontsizeH2: $fontsize-h2;
+//   fontsizeH3: $fontsize-h3;
+//   fontsizeP: $fontsize-p;
+//   fontsizeForm: $fontsize-form;
+//   fontsizeTable: $fontsize-table;
+//   fontsizeButton: $fontsize-button;
+//   fontsizeNavigation: $fontsize-navigation;
+//   maxTextLength: $max-text-length;
+//   marginViewport: $margin-viewport;
+//   borderRadius: $border-radius;
+//   margin: $margin;
+//   padding: $padding;
+//   maxButtonHeight: $max-button-height;
+//   maxButtonWidth: $max-button-width;
+//   imgHeight: $img-height;
+//   imgWidth: $img-width;
+// }

@@ -1,0 +1,63 @@
+{
+  "header.program": "Programma",
+  "header.subscribe": "Abonneren",
+"header.unsubscribe": "Zoeken",
+  "header.berlin": "Bezienswaardigheden van Berlijn",
+  "header.files": "Bestanden",
+  "footer.creator": "Gemaakt door Kilian Aaron Brinkner voor Global Friendship 2024 in Berlijn",
+"files.title": "Bestanden",
+"files.incompatibilities_en": "Voedingsingrediënten Engels",
+"files.incompatibilities_de": "Voedingsingrediënten Duits",
+"files.breakfast_times": "Ontbijttijden",
+"files.lunch_groups_tuesday": "Lunchgroepen dinsdag",
+
+  "berlin.title": "Bezienswaardigheden van Berlijn",
+  "berlin.description": "Welkom in Berlijn! Begin je wandeling vanaf de televisietoren, gelegen bij het station 'Alexanderplatz', en ga helemaal door tot de Brandenburger Tor. Geniet van onze kleine zelfgeleide tour die je zal helpen de stad te leren kennen. De tour omvat delen van het 'Historisch Berlijn', een begrip dat verband houdt met de oudere delen van de stad tot de 18e eeuw. Maar je zult gebouwen en architectuur uit verschillende tijden en eeuwen tegenkomen. Berlijn is door de eeuwen heen veel veranderd en is zwaar beschadigd, vooral tijdens de Tweede Wereldoorlog van 1939 tot 1945, zodat veel van de huidige gebouwen zijn gerenoveerd of opnieuw gebouwd na de oorlog of helemaal opnieuw zijn gebouwd. Het ‘Historisch Berlijn’ ligt volledig in het gebied dat na de Tweede Wereldoorlog door de Sovjetunie werd gecontroleerd, de Sovjetzone (1945-1990).",
+  "subscribe.title": "Abonneer je op een tour",
+  "subscribe.description": "Registreer je voor een tour. Elke tour heeft een ander thema. Je zult enkele bezienswaardigheden zien en belangrijke informatie krijgen over de tour waarop je je registreert. Let op: elke tour heeft een capaciteit van 70 mensen.",
+  "subscribe.members": "leden",
+  "subscribe.start": "Start",
+  "subscribe.form.name": "Naam",
+  "subscribe.form.telephone": "Telefoon",
+  "subscribe.form.city": "Stad",
+  "subscribe.form.joinTour": "Doe mee aan de tour",
+  "subscribe.form.cancel": "Annuleren",
+  "unsubscribe.title": "Zoeken en Uitschrijven",
+  "unsubscribe.description": "Controleer hier voor welke groep je je hebt aangemeld. Voer dezelfde gegevens in die je tijdens de registratie hebt gebruikt. Je hebt daarna ook de mogelijkheid om jezelf uit een groep te verwijderen.",
+  "unsubscribe.form.name": "Naam",
+  "unsubscribe.form.telephone": "Telefoon",
+  "unsubscribe.form.city": "Stad",
+  "unsubscribe.form.search": "Zoeken",
+  "unsubscribe.results.title": "De volgende leden zijn gevonden",
+  "unsubscribe.results.delete": "Verwijderen",
+  "tour.historic_berlin.title": "Historisch Berlijn",
+  "tour.historic_berlin.description": "Deze stadstour toont belangrijke historische plaatsen en de ontwikkeling van de stad en behandelt bepalende gebeurtenissen vanaf de oprichting tot de moderne metropool.",
+
+  "tour.special_architectural_features.title": "Bijzondere architectonische kenmerken in Berlijn",
+  "tour.special_architectural_features.description": "Deze begeleide stadstour neemt je mee op een reis door de rijke en diverse architectuurgeschiedenis van Berlijn. Naarmate de stad zich door de eeuwen heen ontwikkelde, liet elk tijdperk zijn unieke stempel achter op de gebouwen die je vandaag de dag ziet. Je verkent veel architectonische stijlen, van gotisch ontwerp, tot de gedurfde lijnen van het modernisme, en tenslotte de grandeur van het neoclassicisme.",
+
+  "tour.personalities_resistance_ns_ddr.title": "Persoonlijkheden in het verzet (Nationaalsocialisme & DDR)",
+  "tour.personalities_resistance_ns_ddr.description": "De stadstour introduceert verschillende persoonlijkheden die - om verschillende redenen - betrokken waren bij het verzet tegen het nationaalsocialisme en tegen de DDR-regering. Het introduceert de protestantse dominee Dietrich Bonhoeffer, die zich al vroeg uitsprak tegen de nationaalsocialistische jodenvervolging, de katholieke domprovost Bernhard Lichtenberg, die in Yad Vashem wordt geëerd als Rechtvaardige onder de Volkeren, en het verzet in de DDR, dat leidde tot de opstand van 17 juni 1953 en de val van de Berlijnse Muur in 1989.",
+
+  "tour.berlin_wall.title": "De Berlijnse Muur",
+  "tour.berlin_wall.description": "Deze tour behandelt de geschiedenis van de Berlijnse Muur, vanaf de bouw tot de val, en laat zien hoe de stad Berlijn is gegroeid uit de gebeurtenissen van de scheiding en hereniging.",
+
+  "tour.command_center_nazi_germany.title": "Berlijn - Het commando centrum van nazi-Duitsland",
+  "tour.command_center_nazi_germany.description": "Verken Berlijn als het epicentrum van de nazistische macht tijdens het Derde Rijk, waar belangrijke beslissingen werden genomen die de geschiedenis vormden. Deze tour brengt je naar belangrijke locaties van het nazibestuur, en onthult de rol van de stad in de opkomst en val van het nationaalsocialisme.",
+
+  "tour.political_district_over_time.title": "Het politieke district van Berlijn door de tijd heen",
+  "tour.political_district_over_time.description": "Deze stadstour laat je niet alleen de belangrijkste gebouwen van het Duitse regeringsdistrict zien, maar leidt je ook door de historische evolutie van politiek Berlijn, waarbij je kennis maakt met politieke discussies uit het verleden en het heden. Je begint je reis in de jaren 1700, met een snelle overgang naar het tijdperk van het Tweede Duitse Rijk, gevolgd door nazi-Duitsland, de deling van Duitsland en de hereniging.",
+
+  "tour.hidden_backyards_city_centre.title": "Verborgen achterplaatsen in het centrum van Berlijn",
+  "tour.hidden_backyards_city_centre.description": "Tijdens de begeleide wandeling in het centrum van Berlijn ontdek je niet alleen verborgen achterplaatsen met hun spannende verhalen, maar volg je ook de sporen van het Joodse leven in Berlijn.",
+
+  "tour.jewish_life_berlin.title": "Joods leven in Berlijn - Een reis door geschiedenis en herinnering",
+  "tour.jewish_life_berlin.description": "Ontdek de rijke en complexe geschiedenis van het Joodse leven in Berlijn, van de levendige pre-oorlogse gemeenschap tot de verschrikkelijke gebeurtenissen van de Holocaust. Deze tour duikt in de monumenten, verhalen en gedenktekens die de Joodse veerkracht en herinnering in de stad eren.",
+
+  "tour.refugees_welcome.title": "Vluchtelingen welkom?! Vlucht en migratie in de geschiedenis van Berlijn.",
+  "tour.refugees_welcome.description": "Berlijn werd thuis voor veel mensen die door de eeuwen heen naar Duitsland zijn geëmigreerd. De immigranten waren divers: Hugenoten, Russische joden die voor pogroms vluchtten, gastarbeiders in de 20e eeuw en vele vluchtelingen sinds de scherpe toename van vluchtelingenbewegingen in 2015.",
+
+  "tour.living_in_grd.title": "Leven in de DDR",
+  "tour.living_in_grd.description": "Zoals velen weten, werd Duitsland na de Tweede Wereldoorlog verdeeld in Oost en West. Er ontstonden twee totaal verschillende staten, die de levensomstandigheden van de mensen die er woonden vorm gaven. Om het leven in Oost-Duitsland te verkennen, nodigen wij u uit om een museum te bezoeken en een korte wandeling langs de Karl-Marx-Allee te maken."
+
+}

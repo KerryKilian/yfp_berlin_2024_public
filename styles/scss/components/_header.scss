@@ -1,0 +1,101 @@
+.header {
+  background-color: $background-color2;
+  color: $secondary-color;
+  padding: $padding;
+  // position: relative;
+  position: sticky; /* Macht den Header sticky */
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header__mobile {
+  @include flex(row, nowrap, right, right);
+  gap: $padding;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  
+
+  @media (max-width: 1000px) {
+    // display: none;
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%; // 100%!!!
+    left: 0;
+    // right: -50%;
+    background-color: $black-color;
+    padding: $padding;
+    opacity: 0;
+    // transform: translateY(-20%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;  /* Smooth transition for opacity */
+    // transition: opacity 0.3s ease-in-out;  /* Smooth transition for opacity */
+    pointer-events: none; // Verhindert das Klicken, wenn das Menü versteckt ist
+  visibility: hidden; // Macht das Menü unsichtbar
+
+  }
+}
+
+
+.nav.open {
+  display: flex !important; /* Important to override display: none */
+  opacity: 1; /* Set opacity to 1 when open */
+  transition: transform 0.3s ease-in-out,opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+  // transition: opacity 0.3s ease-in-out;
+  // transform: translateY(20%);
+  visibility: visible; // Macht das Menü sichtbar, wenn es geöffnet ist
+  pointer-events: auto; // Ermöglicht Interaktion, wenn das Menü geöffnet ist
+}
+
+.nav-item {
+  color: $secondary-color;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  padding: $padding;
+  font-weight: bold;
+  text-align: right;
+}
+
+.nav-item:hover {
+  color: $secondary-color; 
+  transform: scale(1.1);
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+
+  @media (max-width: 1000px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+
+.yfp_logo_header {
+  display: none;
+  @media (max-width: 1000px) {
+    display: block;
+    
+
+  }
+  border-radius: $border-radius;
+}
+
+.header__logo {
+  border-radius: $border-radius;
+  @media (max-width: 1000px) {
+    max-width: 100px;  
+    height: auto;  
+  }
+}
+
+.header__logos {
+  @include flex(row, wrap, center, center);
+  gap: $padding;
+  margin: $margin;
+}

@@ -1,0 +1,4 @@
+.file {
+    @include flex(row, wrap, start, center);
+    gap: $padding;
+}

@@ -1,0 +1,40 @@
+.login__page {
+    @include flex(column, wrap, center, center);
+    gap: $margin;
+}
+
+.login__container {
+    @include flex(row, wrap, center, center);
+}
+
+.loginform {
+    border-radius: $border-radius;
+    background-color: $background-color3;
+    padding: $padding;
+    margin: $margin;
+    
+}
+
+.loginform__labelinput {
+    @include flex(column, wrap, left, left);
+    gap: $padding;
+}
+
+.loginform__labelinput > input {
+    border-radius: $border-radius;
+    padding: $padding;
+    border: 0;
+    color: $black-color;
+
+}
+
+.loginform__button {
+    border-radius: $border-radius;
+    padding: $padding;
+    border: 0;
+    color: $black-color;
+    background-color: $secondary-color;
+    font-weight: bold;
+    margin-left: 0;
+}
+

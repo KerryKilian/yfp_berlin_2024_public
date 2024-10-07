@@ -1,0 +1,65 @@
+{
+  "header.program": "Programme",
+  "header.subscribe": "S'inscrire",
+"header.unsubscribe": "Recherche",
+  "header.berlin": "Sites de Berlin",
+  "header.files": "Fichiers",
+  "footer.creator": "Créé par Kilian Aaron Brinkner pour Global Friendship 2024 à Berlin",
+"files.title": "Fichiers",
+"files.incompatibilities_en": "Ingrédients alimentaires anglais",
+"files.incompatibilities_de": "Ingrédients alimentaires allemand",
+"files.breakfast_times": "Heures de petit déjeuner",
+"files.lunch_groups_tuesday": "Groupes de déjeuner mardi",
+
+
+  "berlin.title": "Sites de Berlin",
+  "berlin.description": "Bienvenue à Berlin ! Veuillez commencer votre visite depuis la Tour de la Télévision, située à la station 'Alexanderplatz', et descendre jusqu'à la Porte de Brandebourg. Profitez de notre petite visite guidée autonome, qui vous aidera à découvrir la ville. Le parcours comprend des parties du 'Berlin Historique', un concept lié aux zones anciennes de la ville jusqu'au XVIIIe siècle. Cependant, vous rencontrerez des bâtiments et de l'architecture de différentes époques et siècles. Berlin a beaucoup changé au fil des siècles et a été fortement détruite, en particulier pendant la Seconde Guerre mondiale de 1939 à 1945, de sorte que de nombreux bâtiments actuels ont été soit rénovés, soit reconstruits après la guerre ou construits de toutes pièces. Le ‘Berlin Historique’ se trouve entièrement dans la zone contrôlée par l'Union Soviétique après la Seconde Guerre mondiale, le secteur soviétique (1945-1990).",
+  "subscribe.title": "S'inscrire à la visite",
+  "subscribe.description": "Veuillez vous inscrire pour une visite. Chaque visite aura un thème différent. Vous verrez certains sites et recevrez des informations importantes sur la visite à laquelle vous vous inscrivez. Veuillez noter : chaque visite a une capacité de 70 personnes.",
+  "subscribe.members": "membres",
+  "subscribe.start": "Début",
+  "subscribe.form.name": "Nom",
+  "subscribe.form.telephone": "Téléphone",
+  "subscribe.form.city": "Ville",
+  "subscribe.form.joinTour": "Rejoindre la visite",
+  "subscribe.form.cancel": "Annuler",
+  "unsubscribe.title": "Rechercher et se désinscrire",
+  "unsubscribe.description": "Vérifiez ici pour voir pour quel groupe vous vous êtes inscrit. Entrez les mêmes données que vous avez utilisées lors de l'inscription. Vous aurez également la possibilité de vous retirer d'un groupe par la suite.",
+
+  "unsubscribe.form.name": "Nom",
+  "unsubscribe.form.telephone": "Téléphone",
+  "unsubscribe.form.city": "Ville",
+  "unsubscribe.form.search": "Rechercher",
+  "unsubscribe.results.title": "Les membres suivants ont été trouvés",
+  "unsubscribe.results.delete": "Supprimer",
+  "tour.historic_berlin.title": "Berlin Historique",
+  "tour.historic_berlin.description": "Cette visite de la ville vous montre des lieux historiques importants et le développement de la ville en couvrant les événements marquants, de sa fondation à la métropole moderne.",
+
+  "tour.special_architectural_features.title": "Caractéristiques architecturales spéciales de Berlin",
+  "tour.special_architectural_features.description": "Cette visite guidée vous emmène à travers l'histoire architecturale riche et diversifiée de Berlin. À mesure que la ville a évolué au fil des siècles, chaque époque a laissé son empreinte unique sur les bâtiments que vous voyez aujourd'hui. Vous explorerez de nombreux styles architecturaux, du design gothique aux lignes audacieuses du modernisme, en passant par la grandeur du néoclassicisme.",
+
+  "tour.personalities_resistance_ns_ddr.title": "Personnalités dans la résistance (National-socialisme & RDA)",
+  "tour.personalities_resistance_ns_ddr.description": "La visite guidée de la ville présente différentes personnalités qui, pour différentes raisons, ont participé à la résistance contre le national-socialisme et contre le gouvernement de la RDA. Elle présente le pasteur protestant Dietrich Bonhoeffer, qui s'est très tôt élevé contre la persécution des juifs par le national-socialisme, le prévôt de la cathédrale catholique Bernhard Lichtenberg, honoré à Yad Vashem comme Juste parmi les Nations, et la résistance en RDA qui a conduit au soulèvement du 17 juin 1953 et à la chute du mur de Berlin en 1989.",
+
+  "tour.berlin_wall.title": "Le Mur de Berlin",
+  "tour.berlin_wall.description": "Cette visite couvre l'histoire du Mur de Berlin, de sa construction à sa chute, et montre comment la ville de Berlin s'est développée à partir des événements de la division et de la réunification.",
+
+  "tour.command_center_nazi_germany.title": "Berlin - Le centre de commandement de l'Allemagne nazie",
+  "tour.command_center_nazi_germany.description": "Explorez Berlin en tant qu'épicentre du pouvoir nazi pendant le Troisième Reich, où des décisions clés qui ont façonné l'histoire ont été prises. Cette visite vous emmène sur les sites importants de la gouvernance nazie, révélant le rôle de la ville dans l'ascension et la chute du national-socialisme.",
+
+  "tour.political_district_over_time.title": "Le quartier politique de Berlin à travers le temps",
+  "tour.political_district_over_time.description": "Cette visite de la ville vous fera non seulement découvrir les bâtiments les plus importants du quartier gouvernemental allemand, mais vous guidera également à travers l'évolution historique de Berlin, en vous présentant les discours politiques passés et actuels. Vous commencerez votre voyage dans les années 1700, en passant rapidement à l'ère du Second Reich allemand, suivie de l'Allemagne nazie, de la division de l'Allemagne et de sa réunification.",
+
+  "tour.hidden_backyards_city_centre.title": "Cours cachées du centre-ville de Berlin",
+  "tour.hidden_backyards_city_centre.description": "Lors de cette promenade guidée au centre de Berlin, vous ne découvrirez pas seulement des cours cachées avec leurs histoires passionnantes, mais suivrez également les traces de la vie juive à Berlin.",
+
+  "tour.jewish_life_berlin.title": "La vie juive à Berlin - Un voyage à travers l'histoire et la mémoire",
+  "tour.jewish_life_berlin.description": "Découvrez l'histoire riche et complexe de la vie juive à Berlin, depuis sa communauté vibrante d'avant-guerre jusqu'aux événements dévastateurs de l'Holocauste. Cette visite explore les monuments, les histoires et les mémoriaux qui honorent la résilience et le souvenir juifs dans la ville.",
+
+  "tour.refugees_welcome.title": "Les réfugiés sont-ils les bienvenus?! Fuite et migration dans l'histoire de Berlin.",
+  "tour.refugees_welcome.description": "Berlin est devenue un foyer pour de nombreuses personnes ayant immigré en Allemagne au fil des siècles. Les immigrants étaient divers : Huguenots, Juifs russes fuyant les pogroms, travailleurs invités au XXe siècle et de nombreux réfugiés depuis l'augmentation marquée des mouvements de réfugiés en 2015.",
+
+  "tour.living_in_grd.title": "Vivre en RDA",
+  "tour.living_in_grd.description": "Comme beaucoup le savent, l'Allemagne a été divisée en Est et Ouest après la Seconde Guerre mondiale. Deux États complètement différents ont émergé, façonnant les conditions de vie des personnes y vivant. Pour explorer la vie en Allemagne de l'Est, nous vous invitons à visiter un musée et à faire une courte promenade le long de la Karl-Marx-Allee."
+
+}
