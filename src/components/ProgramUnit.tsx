@@ -1,6 +1,4 @@
-"use client";
-
-import React, { useEffect, useRef  } from 'react';
+import React from 'react';
 
 import { ProgramDay } from 'Resources';
 
@@ -10,18 +8,11 @@ interface ProgramUnitProps {
 }
 
 const ProgramUnit: React.FC<ProgramUnitProps> = ({ program, index }) => {  
-    const ref = useRef<HTMLDivElement>(null);
-    useEffect(() => {
-        const timer = setTimeout(() => {
-          if (ref.current) {
-            ref.current.classList.add("visible");
-          }
-        }, index * 300); // Verzögerung für jeden Tag
-    
-        return () => clearTimeout(timer);
-      }, [index]);
   return (
-    <div className='programday' ref={ref}>
+    <div 
+      className='programday' 
+      style={{ '--animation-delay': `${index * 300}ms` } as React.CSSProperties}
+    >
         <div className='programday--titlecontainer'>
             <h3 className='programday--title'>{program.day}</h3>
             <p>{program.date}</p>
