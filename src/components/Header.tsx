@@ -124,7 +124,7 @@ export default function Header({locale}: HeaderProps) {
                         src={`/img/${locale}.png`}
                         alt={`${locale} flag`}
                         width={40}
-                        height={40}
+                        height={27}
                         className="language__flag"
                       /> ▼
             </button>
@@ -138,7 +138,7 @@ export default function Header({locale}: HeaderProps) {
                           src={`/img/${loc}.png`}
                           alt={`${loc} flag`}
                           width={40}
-                          height={40}
+                          height={27}
                           className="language__flag"
                         />
                       </li>

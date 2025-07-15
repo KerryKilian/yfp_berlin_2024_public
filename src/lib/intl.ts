@@ -21,7 +21,7 @@ export function getDirection(locale: Locale) {
     case "hu":
     case "es":
     case "uk":
-    case "po":
+    case "pt":
     case "fr":
       return "ltr";
   }

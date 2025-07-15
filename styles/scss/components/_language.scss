@@ -99,4 +99,7 @@
 
   .language__flag {
     border-radius: $border-radius;
+    width: auto;
+    height: auto;
+    object-fit: cover;
   }
