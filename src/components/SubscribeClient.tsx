@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useReducer } from 'react';
 import { Tour } from 'Resources';
 import { MessageContext } from '@/contexts/MessageProvider';
 import TourContainer from '@/components/TourContainer';
@@ -10,13 +10,34 @@ interface SubscribeClientProps {
   locale: string;
 }
 
+const messageReducer = (state, action) => {
+  switch (action.type) {
+    case 'FORM_SUBMIT':
+      return { message: "Saving...", success: false, showForm: true, error: false };
+    case 'SUBMIT_SUCCESS':
+      return { message: "Teilnehmer wurde erfolgreich hinzugefügt.", success: true, showForm: false, error: false };
+    case 'SUBMIT_ERROR':
+      return { message: action.error, success: true, showForm: false, error: true };
+    case 'CANCEL':
+      return { message: "", success: false, showForm: false, error: false };
+    case 'SHOW_FORM':
+      return { ...state, showForm: true };
+    case 'HIDE_FORM':
+      return { ...state, showForm: false };
+    default:
+      return state;
+  }
+};
+
 export default function SubscribeClient({ initialTours, locale }: SubscribeClientProps) {
   const [tours, setTours] = useState<Tour[]>(initialTours); // ← Keine API Call im useEffect!
   const [selectedTour, setSelectedTour] = useState<Tour | null>(null);
-  const [showForm, setShowForm] = useState<boolean>(false);
-  const [message, setMessage] = useState<string>("");
-  const [success, setSuccess] = useState<boolean>(false);
-  const [error, setError] = useState<boolean>(false);
+  const [messageState, dispatch] = useReducer(messageReducer, {
+    message: "",
+    success: false,
+    showForm: false,
+    error: false
+  });
   const [intl, setIntl] = useState<any>(undefined);
 
   useEffect(() => {
@@ -39,18 +60,15 @@ export default function SubscribeClient({ initialTours, locale }: SubscribeClien
 
   const handleCancel = () => {
     console.log("cancel");
-    setSuccess(false);
-    setMessage("");
-    setError(false);
+    dispatch({ type: 'CANCEL' });
     setSelectedTour(null);
-    // setSelectedGroup(null);
-    setTours([]);
+    setTours(initialTours);
   };
 
   async function handleSubmit(formData: { name: string; telephone: string; city: string }): Promise<void> {
-    // console.log('selectedGroup: ' + selectedGroup!.name);
+    dispatch({ type: 'FORM_SUBMIT' });
+    
     try {
-      
       const response = await fetch('/api/member', {
         method: 'POST',
         headers: {
@@ -60,42 +78,38 @@ export default function SubscribeClient({ initialTours, locale }: SubscribeClien
           name: formData.name, 
           telephone: formData.telephone, 
           city: formData.city, 
-          // groupName: selectedGroup!.name,
           tourName: selectedTour!.name 
         }),
       });
 
-      
       const data = await response.json();
       if (!response.ok) {
         console.log("RESPOSNE WAR NICHT ERFOLGREICH");
-        console.log(data)
-        setMessage(data.message);
-        setSuccess(true);
-        setError(true);
+        console.log(data);
+        dispatch({ type: 'SUBMIT_ERROR', error: data.message });
         return;
-
       }
-
 
       if (data == undefined || data == null) {
-        setMessage("Teilnehmer konnte nicht hinzugefügt werden.");
-        setSuccess(true);
-        setError(true);
+        dispatch({ type: 'SUBMIT_ERROR', error: "Teilnehmer konnte nicht hinzugefügt werden." });
       } else {
-        setMessage(`Teilnehmer wurde erfolgreich hinzugefügt.`);
-        setSuccess(true);
-        setError(false);
+        dispatch({ type: 'SUBMIT_SUCCESS' });
       }
     } catch (error) {
-      setMessage(error.message);
-      setSuccess(true);
-      setError(true);
+      dispatch({ type: 'SUBMIT_ERROR', error: error.message });
     }
   };
   
   return (
-    <MessageContext.Provider value={{ message, success, handleCancel, setShowForm, showForm, error, intl }}>
+    <MessageContext.Provider value={{ 
+      message: messageState.message, 
+      success: messageState.success, 
+      handleCancel, 
+      setShowForm: (show: boolean) => dispatch({ type: show ? 'SHOW_FORM' : 'HIDE_FORM' }), 
+      showForm: messageState.showForm, 
+      error: messageState.error, 
+      intl 
+    }}>
       <div className="tours">
         {selectedTour ? (
           <TourContainer tour={selectedTour} key={selectedTour.name} onGroupSelect={handleGroupSelect} usersSelectedTour={selectedTour} onSubmit={handleSubmit} onCancel={handleCancel} />

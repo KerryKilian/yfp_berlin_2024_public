@@ -12,7 +12,7 @@ import { MessageContext } from '../contexts/MessageProvider';
 
 interface TourContainerProps {
     tour: Tour;
-    onGroupSelect: Function;
+    onGroupSelect: (tour: Tour) => void; // Fix: Proper function signature instead of generic Function
     usersSelectedTour: Tour | null;
     onSubmit: (formData: { name: string; telephone: string; city: string; }) => void;
     onCancel: () => void;
@@ -59,8 +59,10 @@ const TourContainer: React.FC<TourContainerProps> = ({ tour, onGroupSelect, user
                 
             </div> */}
         
-        {/* dont show the icon if user clicked on a group*/}
-        {usersSelectedTour != null ? <></>: <div className={`group__button iconbutton ${isDisabled ? "disabled" : ''}`} onClick={handleButtonClick}>
+        {/* Fix: Use null instead of empty fragment for better React practices */}
+        {/* Note: Controlled components use state to manage input values, allowing real-time validation and formatting */}
+        {/* Uncontrolled components use refs to access values only when needed (like onSubmit) */}
+        {usersSelectedTour != null ? null : <div className={`group__button iconbutton ${isDisabled ? "disabled" : ''}`} onClick={handleButtonClick}>
             <FaPen className='group__icon' color='black' width={50} height={50}/>
         </div>}
         
