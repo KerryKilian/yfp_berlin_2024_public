@@ -11,8 +11,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'POST') {
     try {
       const client = await clientPromise;
-      const db = client.db('yfp_berlin_2024');
-      const { name, description, index } = req.body;
+      const db = client.db('yfp-2024-db');
+      const { name, description, index, location, groups } = req.body;
       // const resultGroupA = await db.collection('group').insertOne({
       //   name: `${index}A`,
       //   members_count: 0
@@ -27,7 +27,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         name: name +  " " + index,
         description,
         members_count: 0,
-        location: "https://maps.app.goo.gl/92A9frA5vsoGUa3cA"
+        location: "https://maps.app.goo.gl/92A9frA5vsoGUa3cA",
+        groups
         // groups: [
         //   resultGroupA.insertedId,
         //   resultGroupB.insertedId
@@ -47,7 +48,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   } else if (req.method === 'GET') {
     try {
       const client = await clientPromise;
-      const db = client.db('yfp_berlin_2024');
+      const db = client.db('yfp-2024-db');
 
       const tours = await db.collection('tour').find({}).toArray();
       console.log(`ip: ${clientIp}    |    Called api/tour GET    |    returned tours`);
@@ -70,7 +71,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   } else if (req.method === 'DELETE') {
     try {
       const client = await clientPromise;
-      const db = client.db('yfp_berlin_2024');
+      const db = client.db('yfp-2024-db');
 
       await db.collection('tour').deleteMany({});
       console.log(`ip: ${clientIp}    |    Called api/tour DELETE    |    deleted all tours`);

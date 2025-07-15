@@ -11,7 +11,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'GET') {
     try {
       const client = await clientPromise;
-      const db = client.db('yfp_berlin_2024');
+      const db = client.db('yfp-2024-db');
       // logger.info(`ip: ${clientIp}    |    Called api/all_members POST`);
       console.log(`ip: ${clientIp}    |    Called api/all_members POST`)
 

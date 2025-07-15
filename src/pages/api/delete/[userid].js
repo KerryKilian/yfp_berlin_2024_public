@@ -7,7 +7,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(req, res) {
     const client = await clientPromise;
-  const db = client.db('yfp_berlin_2024');
+  const db = client.db('yfp-2024-db');
   if (req.method === 'DELETE') {
     // Extrahiere die userId aus der URL
     const { userid } = req.query;

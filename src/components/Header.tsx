@@ -8,6 +8,7 @@ import { LinearProgress } from '@mui/material';
 import { i18n } from 'i18n-config';
 
 import { getIntl } from "@/lib/intl";
+import { usePathname } from 'next/navigation';
 
 type HeaderProps = {
   locale: string;
@@ -18,12 +19,25 @@ export default function Header({locale}: HeaderProps) {
 // export default function Header() {
   const [intl, setIntl] = useState<any>(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
   const { locales, defaultLocale } = i18n;
-  // const intl = await getIntl(locale);
-// export default async function Header({ locale }: HeaderProps) {
   const [navOpen, setNavOpen] = useState(false);
-  // const intl = await getIntl(locale);
+  const pathname = usePathname(); 
+
+  const getPathWithoutLocale = (currentPath: string) => {
+    // Entferne aktuelle Locale aus dem Pfad
+    const pathSegments = currentPath.split('/').filter(Boolean);
+    if (locales.includes(pathSegments[0])) {
+      return '/' + pathSegments.slice(1).join('/');
+    }
+    console.log(currentPath)
+    return currentPath;
+  };
+
+  const getLocaleUrl = (targetLocale: string) => {
+    const pathWithoutLocale = getPathWithoutLocale(pathname!);
+    
+    return `/${targetLocale}${pathWithoutLocale}`;
+  };
   
   const toggleNav = () => {
     setNavOpen(!navOpen);
@@ -78,44 +92,12 @@ export default function Header({locale}: HeaderProps) {
     
     
     <header className='header'>
-      
-      
       <div className='header__mobile'>
-        {/* <Image
-        src="/img/yfp_logo.png"
-        alt="YFP Logo"
-        width={80}
-        height={40}
-        className="yfp_logo_header rounded"
-      />
-      <Image
-        src="/img/sant-egidio-logo.jpg"
-        alt="YFP Logo"
-        width={80}
-        height={40}
-        className="yfp_logo_header rounded"
-      /> */}
-      
       <div className="burger" onClick={toggleNav}>
         ☰
       </div>
       </div>
-      
       <nav className={`nav ${navOpen ? "open" : ''}`}>
-      {/* {navOpen || <Image
-        src="/img/yfp_logo.png"
-        alt="YFP Logo"
-        width={80}
-        height={40}
-        className="header__logo"
-      />}
-      {navOpen || <Image
-        src="/img/sant-egidio-logo.jpg"
-        alt="YFP Logo"
-        width={100}
-        height={40}
-        className="header__logo"
-      />} */}
         <Link href={`/${locale}/program`} >
           <div className='nav-item' onClick={toggleNav}>
             {intl.formatMessage({ id: "header.program" })}
@@ -148,24 +130,24 @@ export default function Header({locale}: HeaderProps) {
             </button>
             {dropdownOpen && (
               <ul className="dropdown-menu">
-                {locales.sort().map((loc) => (
-                  <Link key={loc} href={loc === defaultLocale ? "/" : `/${loc}`} onClick={toggleNav}>
-                    <li className="dropdown-item">
-                      <Image
-                        src={`/img/${loc}.png`}
-                        alt={`${loc} flag`}
-                        width={40}
-                        height={40}
-                        className="language__flag"
-                      />
-                      {/* <p>{loc.toUpperCase()}</p> */}
-                    </li>
-                  </Link>
-                ))}
+                {locales.sort().map((loc) => {
+                  return (
+                    <Link key={loc} href={getLocaleUrl(loc)} onClick={toggleNav}>
+                      <li className="dropdown-item">
+                        <Image
+                          src={`/img/${loc}.png`}
+                          alt={`${loc} flag`}
+                          width={40}
+                          height={40}
+                          className="language__flag"
+                        />
+                      </li>
+                    </Link>
+                  );
+                })}
               </ul>
             )}
           </div>
-        {/* </div> */}
       </nav>
     </header>
     </>

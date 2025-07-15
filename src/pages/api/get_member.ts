@@ -15,7 +15,7 @@ import clientPromise from '../../../lib/mongodb';
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const client = await clientPromise;
-  const db = client.db('yfp_berlin_2024');
+  const db = client.db('yfp-2024-db');
   const clientIp = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
 
   if (req.method === 'POST') {

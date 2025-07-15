@@ -1,11 +1,3 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { FaFilePdf } from "react-icons/fa";
-import Link from "next/link";
-
-import { LinearProgress } from "@mui/material";
-
 import DownloadButton from "@/components/DownloadButton";
 
 import { getIntl } from "@/lib/intl";
@@ -14,22 +6,9 @@ type DownloadsProps = {
     params: { locale: string };
   }
   
-  export default function Downloads({ params }: DownloadsProps) {
+  export default async function Downloads({ params }: DownloadsProps) {
     const { locale } = params;
-    const [intl, setIntl] = useState<any>(null);
-
-
-    useEffect(() => {
-        async function loadTranslations() {
-          const loadedIntl = await getIntl(locale);
-          setIntl(loadedIntl);
-        }
-        loadTranslations();
-      }, []);
-
-    if (!intl) {
-        return <div><LinearProgress color='success'/></div>
-    }
+    const intl = await getIntl(locale);
   
     return (
       <div className='page'>
@@ -41,9 +20,6 @@ type DownloadsProps = {
             <DownloadButton href="/img/lunch_groups_tuesday.pdf"  download="lunch_groups_tuesday.pdf" text={intl.formatMessage({ id: "files.lunch_groups_tuesday" })}></DownloadButton>               
 
           </div>
-          
-          
-          
       </div>
     );
   };

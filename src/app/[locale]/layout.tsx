@@ -38,8 +38,8 @@ export async function generateMetadata({
         'hu': '/hu',
         'it': '/it',
         'nl': '/nl',
-        'pl': '/po',
-        'uk': '/ua',
+        'pt': '/pt',
+        'uk': '/uk',
       },
     },
     
@@ -49,7 +49,7 @@ export async function generateMetadata({
       description: intl.formatMessage({ id: "footer.creator" }),
       type: 'website',
       locale: locale,
-      alternateLocale: ['de', 'en', 'fr', 'es', 'hu', 'it', 'nl', 'po', 'ua'],
+      alternateLocale: ['de', 'en', 'fr', 'es', 'hu', 'it', 'nl', 'pt', 'uk'],
     },
   };
 }

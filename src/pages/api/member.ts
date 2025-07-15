@@ -14,13 +14,13 @@ import clientPromise from '../../../lib/mongodb';
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const client = await clientPromise;
-  const db = client.db('yfp_berlin_2024');
+  const db = client.db('yfp-2024-db');
   const clientIp = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
 
   if (req.method === 'POST') {
     try {
       // const client = await clientPromise;
-      // const db = client.db('yfp_berlin_2024');
+      // const db = client.db('yfp-2024-db');
       const schema = Joi.object({
         name: Joi.string().regex(/^[a-zA-Z0-9\s]+$/).min(3).max(100).required(),
         telephone: Joi.string().pattern(/^\+?[0-9\s]+$/).required(), // plus
@@ -182,7 +182,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         if (telephone) searchQuery.telephone = { $regex: telephone as string, $options: 'i' };
         if (city) searchQuery.city = { $regex: city as string, $options: 'i' };
         // const client = await clientPromise;
-        // const db = client.db('yfp_berlin_2024');
+        // const db = client.db('yfp-2024-db');
         const result = await db.collection('member').find(searchQuery).toArray();
 
         if (!result) {
