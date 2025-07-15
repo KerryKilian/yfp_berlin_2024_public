@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 
 import { Group } from 'Resources';
 
-import { MessageContext } from './MessageProvider';
+import { MessageContext } from '../contexts/MessageProvider';
 
 // import { MessageContext } from '@/app/[locale]/subscribe/page';
 

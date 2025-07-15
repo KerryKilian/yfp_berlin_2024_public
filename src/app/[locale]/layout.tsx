@@ -9,6 +9,7 @@ import { getIntl } from "@/lib/intl";
 
 // import { Inter } from "@next/font/google";
 import "../../../styles/scss/globals.scss";
+import { TranslationProvider } from "@/contexts/TranslationProvider";
 
 
 // If loading a variable font, you don't need to specify the font weight
@@ -54,7 +55,7 @@ export async function generateMetadata({
   };
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
@@ -62,16 +63,20 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   const { locale } = params;
+  const intl = await getIntl(params.locale);
+
 
   return (
     <html lang={locale}>
       <body className="body">
-        <div className="">
-        <Analytics/>
+        <TranslationProvider locale={params.locale}>
+          <div className="">
+          <Analytics/>
             <Header locale={locale}/>
-          <div>{children}</div>
-          <Footer  locale={locale}/>
-        </div>
+              <div>{children}</div>
+            <Footer  locale={locale}/>
+          </div>
+        </TranslationProvider>
       </body>
     </html>
   );

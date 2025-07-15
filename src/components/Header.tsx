@@ -9,15 +9,16 @@ import { i18n } from 'i18n-config';
 
 import { getIntl } from "@/lib/intl";
 import { usePathname } from 'next/navigation';
+import { useTranslations } from '@/contexts/TranslationProvider';
 
 type HeaderProps = {
   locale: string;
-  // intl: any;
 }
 
 export default function Header({locale}: HeaderProps) {
+  const { intl, loading } = useTranslations(); 
+
 // export default function Header() {
-  const [intl, setIntl] = useState<any>(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const { locales, defaultLocale } = i18n;
   const [navOpen, setNavOpen] = useState(false);
@@ -46,20 +47,6 @@ export default function Header({locale}: HeaderProps) {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
-
-  useEffect(() => {
-    async function loadTranslations() {
-      const loadedIntl = await getIntl(locale);
-      setIntl(loadedIntl);
-    }
-    loadTranslations();
-  }, [locale]);
-
-  
-
-  if (!intl) {
-    return <LinearProgress color="success" />
-  }
 
   return (
     <>
@@ -90,7 +77,6 @@ export default function Header({locale}: HeaderProps) {
       </Image>
     </div>
     
-    
     <header className='header'>
       <div className='header__mobile'>
       <div className="burger" onClick={toggleNav}>
@@ -100,20 +86,20 @@ export default function Header({locale}: HeaderProps) {
       <nav className={`nav ${navOpen ? "open" : ''}`}>
         <Link href={`/${locale}/program`} >
           <div className='nav-item' onClick={toggleNav}>
-            {intl.formatMessage({ id: "header.program" })}
+            {loading ? "" : intl!.formatMessage({ id: "header.program" })}
           </div>
         </Link>
         <Link href={`/${locale}/subscribe`}>
-          <div className='nav-item' onClick={toggleNav}>{intl.formatMessage({ id: "header.subscribe" })}</div>
+          <div className='nav-item' onClick={toggleNav}>{loading ? "" : intl!.formatMessage({ id: "header.subscribe" })}</div>
         </Link>
         <Link href={`/${locale}/unsubscribe`}>
-          <div className='nav-item' onClick={toggleNav}>{intl.formatMessage({ id: "header.unsubscribe" })}</div>
+          <div className='nav-item' onClick={toggleNav}>{loading ? "" : intl!.formatMessage({ id: "header.unsubscribe" })}</div>
         </Link>
         <Link href={`/${locale}/berlin`}>
-          <div className='nav-item' onClick={toggleNav}>{intl.formatMessage({ id: "header.berlin" })}</div>
+          <div className='nav-item' onClick={toggleNav}>{loading ? "" : intl!.formatMessage({ id: "header.berlin" })}</div>
         </Link>
         <Link href={`/${locale}/downloads`}>
-          <div className='nav-item' onClick={toggleNav}>{intl.formatMessage({ id: "header.files" })}</div>
+          <div className='nav-item' onClick={toggleNav}>{loading ? "" : intl!.formatMessage({ id: "header.files" })}</div>
         </Link>
         
         {/* <div> */}

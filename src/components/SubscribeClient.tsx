@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
 import { Tour } from 'Resources';
-import { MessageContext } from '@/components/MessageProvider';
+import { MessageContext } from '@/contexts/MessageProvider';
 import TourContainer from '@/components/TourContainer';
 import { getIntl } from '@/lib/intl';
 
